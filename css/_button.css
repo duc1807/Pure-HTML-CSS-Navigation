@@ -1,0 +1,101 @@
+/*
+=                     = === === === === === === === === === === === === === === === === === === === === === === === === 
+   START BUTTON COMPONENT
+=                     = === === === === === === === === === === === === === === === === === === === === === === === === 
+*/
+.c-button {
+  cursor              : pointer;
+  transition          : all .3s;
+  display             : inline-block;
+  border              : 0;
+  border-radius       : 30px;
+  outline             : 0;
+  font-size           : 12px;
+  text-align          : center;
+  width               : 160px;
+  height              : 46px;
+  line-height         : 46px; }
+
+.c-button__view {
+  background-color    : var(--color-brand-primary2);
+  border              : 1px solid var(--color-brand-primary2);
+  color               : #fff; }
+  .c-button__view     :hover {
+    background-color  : transparent;
+    color             : var(--color-brand-primary2); }
+
+.c-button__gray {
+  background-color    : #686868;
+  border              : 1px solid #686868;
+  color               : #fff; }
+  .c-button__gray     :hover {
+    background-color  : transparent;
+    color             : #686868; }
+
+.c-button__primary {
+  background-color    : var(--color-primary);
+  border              : 1px solid var(--color-primary);
+  color               : #fff;
+  font-size           : 16px; }
+  .c-button__primary  :hover {
+    background-color  : transparent;
+    color             : var(--color-primary); }
+
+.c-button__secondary {
+  background-color    : var(--color-secondary);
+  border              : 1px solid #fff;
+  color               :  #fff;
+  font-size           : 16px; }
+.c-button__secondary:hover {
+  background-color  : white;
+  color             : black;
+  background-color    : white;
+}
+
+.c-button__white {
+  background-color    : #fff;
+  border              : 1px solid #fff;
+  color               : var(--color-primary);
+  font-size           : 16px;
+  font-weight         : normal; }
+  .c-button__white    :hover {
+    background-color  : transparent;
+    color             : #fff; }
+
+.c-button__slider {
+  cursor              : pointer;
+  position            : absolute;
+  top                 : 50%;
+  margin-top          : -25px;
+  z-index             : 3;
+  width               : 50px;
+  height              : 50px;
+  border              : 2px solid #f1d5ba;
+  background-color    : rgba(139, 111, 83, 0.4);
+  border-radius       : 50%;
+  text-align          : center;
+  transition          : all .3s linear; }
+  .c-button__slider:before {
+    content           : '';
+    display           : inline-block;
+    vertical-align    : middle;
+    width             : 1px;
+    height            : 100%; }
+  .c-button__slider   :hover .fa {
+    color             : var(--color-primary); }
+  .c-button__slider--next {
+    right             : 40px; }
+  .c-button__slider--prev {
+    left              : 40px; }
+
+.c-button__slider .fa {
+  transition          : all .3s linear;
+  color               : #fff;
+  display             : inline-block;
+  vertical-align      : middle; }
+
+/*
+=                     = === === === === === === === === === === === === === === === === === === === === === === === === 
+   END BUTTON COMPONENT
+=                     = === === === === === === === === === === === === === === === === === === === === === === === === 
+*/

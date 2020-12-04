@@ -1,0 +1,51 @@
+.navigation {
+  width: 100%;
+  height: 12vh;
+  z-index: 6 !important;
+}
+.nopulet {
+  overflow: hidden;
+  background-color: #333;
+  width: 100%;
+  height: 12vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navigation .first-level-subnav {
+  display: inline-block;
+  font-size: 16px;
+  background-color:  rgb(78, 77, 77);
+  text-align: center;
+  margin: 0 2px;
+  padding: 16px 22px;
+  text-decoration: none;
+  transition: 0.3s;
+  position: relative;
+}
+.navigation .first-level-subnav:hover {
+  background-color:  rgb(95, 95, 95);
+  transition: 0.3s;
+}
+.first-level-subnav:hover .second-level-subnav {
+  display: block;
+}
+a {
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
+}
+.second-level-subnav {
+  display: none;
+  position: absolute;
+  left: -24px;
+  top: 50px;
+  background-color: red;
+  width: fit-content;
+  z-index: 4;
+  text-decoration: none;
+  list-style-type: none;
+}
+.second-level-subnav li {
+  padding: 16px 62px;
+}

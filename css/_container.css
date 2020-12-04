@@ -1,0 +1,36 @@
+/*
+==========================================================================
+   START CONTAINER OBJECT
+==========================================================================
+*/
+.o-container {
+  width: 100%;
+
+  margin-right: auto;
+  margin-left: auto; }
+  .o-container--small {
+    width: 790px; }
+
+@media (max-width: 1200px) {
+  .o-container {
+    max-width: 100%; } }
+
+@media (min-width: 1200px) {
+  .o-container {
+    max-width: 1140px; } }
+.o-container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px; }
+  .o-container-fluid:before, .container-fluid:after {
+    content: " ";
+    display: table; }
+  .o-container-fluid:after {
+    clear: both; }
+/*
+
+==========================================================================
+   END CONTAINER OBJECT
+==========================================================================
+*/
